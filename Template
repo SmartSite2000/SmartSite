@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartSite Template</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+    header { background: #4a90e2; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    h1, h2 { color: #4a90e2; }
+    .services, .portfolio { display: flex; gap: 20px; flex-wrap: wrap; }
+    .card { background: #f5f7fa; padding: 20px; flex: 1 1 250px; border-radius: 8px; }
+    footer { background: #222; color: #aaa; text-align: center; padding: 20px; margin-top: 40px; }
+    @media (max-width: 600px) {
+      .services, .portfolio { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SmartSite</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>SmartSite creates affordable, professional websites to help your business grow online.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Web Design</h3>
+      <p>Custom website designs that fit your brand and goals.</p>
+    </div>
+    <div class="card">
+      <h3>SEO Optimization</h3>
+      <p>Improve your search rankings to attract more visitors.</p>
+    </div>
+    <div class="card">
+      <h3>Maintenance</h3>
+      <p>Keep your website updated and secure all year round.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="card">
+      <h3>Project One</h3>
+      <p>A clean website for a local cafe.</p>
+    </div>
+    <div class="card">
+      <h3>Project Two</h3>
+      <p>Portfolio site for a freelance photographer.</p>
+    </div>
+    <div class="card">
+      <h3>Project Three</h3>
+      <p>Online shop for handmade crafts.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@smartsite.com</p>
+  <p>Phone: (123) 456-7890</p>
+</section>
+
+<footer>
+  <p>© 2025 SmartSite. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
